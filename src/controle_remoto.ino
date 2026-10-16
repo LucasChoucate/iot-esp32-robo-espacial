@@ -4,11 +4,11 @@
  */
 
 // Mapeamento dos Pinos
-const int PIN_JOYSTICK_X = 34;
-const int PIN_JOYSTICK_Y = 35;
-const int PIN_BOTAO_DESLIGAR = 32;
-const int PIN_LED_VERDE = 18;
-const int PIN_LED_VERMELHO = 19;
+const int PIN_JOYSTICK_X = 7;
+const int PIN_JOYSTICK_Y = 6;
+const int PIN_BOTAO_DESLIGAR = 2;
+const int PIN_LED_VERDE = 4;
+const int PIN_LED_VERMELHO = 5;
 
 // Limiares de leitura para o ADC de 12 bits (0 a 4095)
 const int LIMITE_BAIXO = 1000;
@@ -70,7 +70,7 @@ void loop() {
     if (valorY > LIMITE_ALTO) {
       comandoAtual = "Frente";
     } else if (valorY < LIMITE_BAIXO) {
-      comandoAtual = "Trás";
+      comandoAtual = "Tras";
     } else if (valorX < LIMITE_BAIXO) {
       comandoAtual = "Esquerda";
     } else if (valorX > LIMITE_ALTO) {
