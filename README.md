@@ -29,4 +29,4 @@ Mapear a movimentação de um joystick analógico para enviar comandos de direç
 5. Pressione o botão para disparar o comando `DESLIGAR`.
 
 ## Link do Projeto no Wokwi
-- [Acessar Simulação no Wokwi](https://wokwi.com/projects/SEU_ID_DO_PROJETO_AQUI)
+- [Acessar Simulação no Velxio](https://velxio.dev/felipe-n-santos/service/)
